@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/profile/static/css/main.de12efa7.css",
+    "main.js": "/profile/static/js/main.aca4aa3f.js",
+    "static/js/787.1ed0c42c.chunk.js": "/profile/static/js/787.1ed0c42c.chunk.js",
+    "static/media/profile-pic-full.jpg": "/profile/static/media/profile-pic-full.7c3d5d11f7cf76f67601.jpg",
+    "static/media/profile-pic-thumb.jpg": "/profile/static/media/profile-pic-thumb.dad381227b1a06029b42.jpg",
+    "static/media/redux.png": "/profile/static/media/redux.1b4bb5fceb01b19da59d.png",
+    "static/media/electron.png": "/profile/static/media/electron.4c04c5208e32bcca89b3.png",
+    "static/media/bootstrap.png": "/profile/static/media/bootstrap.a692f04a045f8133192d.png",
+    "static/media/sass.png": "/profile/static/media/sass.7cdbf6b5889c42b3e490.png",
+    "static/media/ana.png": "/profile/static/media/ana.18abbdea22d0cedf1115.png",
+    "static/media/react.png": "/profile/static/media/react.daae3e094212712ac94b.png",
+    "static/media/cec.jpg": "/profile/static/media/cec.682bfc43db3c49a3a679.jpg",
+    "static/media/vue.png": "/profile/static/media/vue.9f7e88c1f79fca99a8db.png",
+    "static/media/react_hooks.png": "/profile/static/media/react_hooks.364ecfd961c033c15bde.png",
+    "static/media/react_native.png": "/profile/static/media/react_native.fad73e03033a7fe1198a.png",
+    "static/media/nighthq.jpg": "/profile/static/media/nighthq.844ba00667aff28c6b54.jpg",
+    "static/media/faith.jpg": "/profile/static/media/faith.872f57f7bb78dfcf6753.jpg",
+    "static/media/angular.png": "/profile/static/media/angular.3a69a9e22d05f7699797.png",
+    "static/media/qburst.png": "/profile/static/media/qburst.12eff094e95dc48ff877.png",
+    "static/media/bn_mobile.png": "/profile/static/media/bn_mobile.417c0ff24e7d8a86a982.png",
+    "static/media/hss.jpg": "/profile/static/media/hss.9e1060badb9223ccbbd2.jpg",
+    "static/media/styled.png": "/profile/static/media/styled.76b9df72acc5afb0c385.png",
+    "static/media/propicks.jpg": "/profile/static/media/propicks.8b574979f05e135e985b.jpg",
+    "static/media/js.png": "/profile/static/media/js.266bd9fb2663dcc057b4.png",
+    "index.html": "/profile/index.html",
+    "main.de12efa7.css.map": "/profile/static/css/main.de12efa7.css.map",
+    "main.aca4aa3f.js.map": "/profile/static/js/main.aca4aa3f.js.map",
+    "787.1ed0c42c.chunk.js.map": "/profile/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de12efa7.css",
+    "static/js/main.aca4aa3f.js"
+  ]
+}
