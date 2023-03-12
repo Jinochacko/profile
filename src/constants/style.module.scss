@@ -1,0 +1,62 @@
+@mixin container {
+  height: 100vh;
+  width: 100vw;
+}
+@mixin full-size {
+  height: 100vh;
+  width: 100vw;
+}
+@mixin center-align {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+$base: 0.6rem;
+$black: #000;
+$white: #ededed;
+$gradient: linear-gradient(90deg, rgba(9, 9, 121, 0) 35%, rgb(0, 0, 0) 100%);
+$fullLengthGradient: linear-gradient(
+  90deg,
+  rgba(9, 9, 121, 0) 0%,
+  rgba(0, 0, 0, 1) 100%
+);
+$progressThumb: linear-gradient(
+  90deg,
+  rgba(196, 6, 6, 1) 0%,
+  rgba(235, 164, 76, 1) 31%,
+  rgba(38, 184, 4, 1) 70%
+);
+$progressThumbDisabled: #555;
+$scrollThumb: #333;
+$scrollThumbHovered: #555;
+$cardBackground: #eee;
+$cardDescription: #c1bcbc;
+$subTitleColor: rgb(176, 158, 128);
+$titleColor: rgb(165, 138, 91);
+$homeDescription: #a09999;
+$contentBackground: #171717;
+$popupBackground: #333;
+$popupSidebarItemBg: #444;
+$popupMainBackground: #555;
+$popupBgTransparent: rgba(0, 0, 0, 0.7);
+$closeIconColor: rgb(165, 138, 91);
+
+:export {
+  black: $black;
+  white: $white;
+  gradient: $gradient;
+  fullLengthGradient: $fullLengthGradient;
+  cardBackground: $cardBackground;
+  cardDescription: $cardDescription;
+  subTitleColor: $subTitleColor;
+  titleColor: $titleColor;
+  homeDescription: $homeDescription;
+  contentBackground: $contentBackground;
+  popupBackground: $popupBackground;
+  popupSidebarItemBg: $popupSidebarItemBg;
+  popupMainBackground: $popupMainBackground;
+  popupBgTransparent: $popupBgTransparent;
+  closeIconColor: $closeIconColor;
+  progressThumb: $progressThumb;
+  progressThumbDisabled: $progressThumbDisabled;
+}

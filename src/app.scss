@@ -1,0 +1,38 @@
+@import "./constants/style.module.scss";
+body {
+  // cursor: none;
+  overflow: hidden;
+  font-family: cursive;
+  background: $black;
+  color: $white;
+  * {
+    box-sizing: border-box;
+    transition: all 0.7s;
+    transition-timing-function: ease-in-out;
+  }
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: $scrollThumb;
+  border-radius: 50%;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: $scrollThumbHovered;
+}
+
+.app {
+  @include container;
+  .full-size {
+    @include full-size;
+  }
+}
+@keyframes arrow-bounce {
+  0% {
+    transform: translateY(2px);
+  }
+  100% {
+    transform: translateY(-4px);
+  }
+}
