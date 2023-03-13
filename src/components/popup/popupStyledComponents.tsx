@@ -30,6 +30,13 @@ export const PopupWrapper = styled.div`
   -webkit-box-shadow: 0px 0px 71px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 71px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 71px 0px rgba(0, 0, 0, 0.75);
+  @media (max-width: 960px) {
+    width: 90%;
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width: 80%;
+  }
 `;
 
 export const Close = styled.div`
@@ -61,6 +68,9 @@ export const PopupMain = styled.section`
   justify-content: center;
   padding: 1rem;
   width: 60%;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const PopupSidebarBanner = styled.div`
@@ -72,6 +82,13 @@ export const PopupSidebarBanner = styled.div`
   padding: 0 1rem;
   img {
     max-width: 100%;
+  }
+  @media (max-width: 768px) {
+    height: 15vh;
+    padding: 1rem;
+    img {
+      max-height: 100%;
+    }
   }
 `;
 
@@ -100,4 +117,9 @@ export const PopupContentTitle = styled(Heading)`
 
 export const PopupContentDetails = styled.section`
   padding: 0 1rem;
+  @media (max-width: 768px) {
+    max-height: 20vh;
+    overflow-y: auto;
+    padding: 0;
+  }
 `;

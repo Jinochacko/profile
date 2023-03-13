@@ -12,6 +12,9 @@ export const MainContentContainer = styled.div`
   padding: 2rem;
   justify-content: center;
   align-items: center;
+  @media (max-width: 960px) {
+    padding: 2.5rem 0;
+  }
 `;
 
 export const MainContentWrapper = styled.div`

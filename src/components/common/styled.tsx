@@ -31,6 +31,10 @@ export const ArrowContainer = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
+  @media only screen and (max-width: 960px) {
+    bottom: 100%;
+    top: 1rem;
+  }
 `;
 
 export const ArrowWrapper = styled.div`
@@ -52,5 +56,8 @@ export const ArrowElement = styled.div`
   }
   &.right {
     transform: rotate(-45deg);
+    @media (max-width: 768px) {
+      margin-left: -0.5rem;
+    }
   }
 `;

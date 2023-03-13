@@ -5,6 +5,12 @@ export const SidebarConatiner = styled.div`
   display: flex;
   align-items: center;
   flex: 1;
+  @media (max-width: 768px) {
+    flex: 2;
+  }
+  @media (max-width: 480px) {
+    flex: 1;
+  }
 `;
 
 export const SidebarWrapper = styled.div`

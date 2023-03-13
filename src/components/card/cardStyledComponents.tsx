@@ -6,6 +6,12 @@ export const CardContainer = styled.article`
   margin-bottom: 1rem;
   padding: 0 1rem;
   width: 33.3%;
+  @media (max-width: 960px) {
+    width: 50%;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const CardWrapper = styled.div`
@@ -38,7 +44,7 @@ export const DetailsWrapper = styled.div`
 
 export const Title = styled.h3`
   color: ${styles.titleColor};
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 0;
 `;
 
