@@ -269,7 +269,7 @@ export const data = {
       type: "Mobile Application",
       sliderImages: [images.ts, images.react_native, images.redux, images.css],
       description:
-        "BuildNext is a tech-enabled home builder with the sole purpose of improving customer experience in the building construction industry.",
+        "BuildNext is a tech-enabled home builder with the sole purpose of improving customer experience in the building construction industry. This app is a must-have companion for BuildNext customers, partner professionals as well as anyone interested in building their dream home. It is an integral part of the BuildNext customer journey right from ideation of their dream project through design, product selection, planning and daily work progress tracking all the way to project handover and support.",
     },
     {
       img: images.bnFull,
@@ -286,7 +286,7 @@ export const data = {
         images.material,
       ],
       description:
-        "BuildNext is a tech-enabled home builder with the sole purpose of improving customer experience in the building construction industry.",
+        "BuildNext is a tech-enabled home builder with the sole purpose of improving customer experience in the building construction industry. Salespartner module is a dashboard for BuildNext partners to check their details. Main fetures of the dashbord includes payment info, project info, order info, pending and settled payments etc.",
     },
     {
       img: images.propicks,
@@ -344,15 +344,7 @@ export const data = {
       institute: "Faith Infotech",
       level: "Post B-Tech",
       period: "June 2012 - September 2012",
-      sliderImages: [
-        images.js,
-        images.jq,
-        images.html5,
-        images.css,
-        images.bootstrap,
-      ],
-      description:
-        "Faith InfoTech Academy Technopark provides best class room and online Software/ IT training and placement services for freshers, professionals and corporate IT companies in Full Stack Development- Java/ J2EE, .Net, Python, MERN/MEAN-, Angular, React, Data Science, MS Dynamics, Sharepoint, Flutter, Ionic, AWS, Azure, SDET- Manual/ Automation Testing in Kerala. Faith InfoTech Academy has the best placement track record in for Full Stack Developer Training.",
+      marksSecured: null,
     },
     {
       img: images.cec,
@@ -360,15 +352,7 @@ export const data = {
       institute: "College of Engineering, Chengannur",
       level: "Graduate",
       period: "September 2008 - May 2012",
-      sliderImages: [
-        images.js,
-        images.jq,
-        images.html5,
-        images.css,
-        images.bootstrap,
-      ],
-      description:
-        "Faith InfoTech Academy Technopark provides best class room and online Software/ IT training and placement services for freshers, professionals and corporate IT companies in Full Stack Development- Java/ J2EE, .Net, Python, MERN/MEAN-, Angular, React, Data Science, MS Dynamics, Sharepoint, Flutter, Ionic, AWS, Azure, SDET- Manual/ Automation Testing in Kerala. Faith InfoTech Academy has the best placement track record in for Full Stack Developer Training.",
+      marksSecured: "60%",
     },
     {
       img: images.hss,
@@ -376,15 +360,7 @@ export const data = {
       institute: "St Mary's HSS Kuravilangad",
       level: "Higher Secondary",
       period: "June 2005 - March 2007",
-      sliderImages: [
-        images.js,
-        images.jq,
-        images.html5,
-        images.css,
-        images.bootstrap,
-      ],
-      description:
-        "Faith InfoTech Academy Technopark provides best class room and online Software/ IT training and placement services for freshers, professionals and corporate IT companies in Full Stack Development- Java/ J2EE, .Net, Python, MERN/MEAN-, Angular, React, Data Science, MS Dynamics, Sharepoint, Flutter, Ionic, AWS, Azure, SDET- Manual/ Automation Testing in Kerala. Faith InfoTech Academy has the best placement track record in for Full Stack Developer Training.",
+      marksSecured: "83%",
     },
     {
       img: images.hss,
@@ -392,15 +368,7 @@ export const data = {
       institute: "St Mary's HSS Kuravilangad",
       level: "Secondary",
       period: "June 2004 - March 2005",
-      sliderImages: [
-        images.js,
-        images.jq,
-        images.html5,
-        images.css,
-        images.bootstrap,
-      ],
-      description:
-        "Faith InfoTech Academy Technopark provides best class room and online Software/ IT training and placement services for freshers, professionals and corporate IT companies in Full Stack Development- Java/ J2EE, .Net, Python, MERN/MEAN-, Angular, React, Data Science, MS Dynamics, Sharepoint, Flutter, Ionic, AWS, Azure, SDET- Manual/ Automation Testing in Kerala. Faith InfoTech Academy has the best placement track record in for Full Stack Developer Training.",
+      marksSecured: "90%",
     },
   ],
 };

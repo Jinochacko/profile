@@ -1,5 +1,6 @@
 import { Card } from "../../components/card/card";
 import { EllipsedText } from "../../components/common/styled";
+import { Progress } from "../../components/progress/progress";
 import { data } from "../../constants/data";
 
 export const Education = () => {
@@ -11,7 +12,12 @@ export const Education = () => {
           imgSrc={item.img}
           title={item.title}
           subTitle={item.institute}
-          details={<EllipsedText numberOfLines={3}>{item.period}</EllipsedText>}
+          details={
+            <>
+              <EllipsedText numberOfLines={3}>{item.period}</EllipsedText>
+              {item.marksSecured && <Progress percentage={item.marksSecured} />}
+            </>
+          }
           key={`skill${index}`}
         />
       ))}
